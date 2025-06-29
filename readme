@@ -1,0 +1,11 @@
+1)clone the reposirory
+git clone https://github.com/DRUGBULLETS/CustomerTransactionTracker.git
+cd CustomerTransactionTracker
+
+2)setup the DATABASE
+
+3)COMPILE THE CODE
+javac -cp "lib\mssql-jdbc-12.10.1.jre8.jar" -d bin src\config\*.java src\dao\*.java src\model\*.java src\main\*.java
+
+4)RUN THE APPLICATION
+java -cp "bin;lib\mssql-jdbc-12.10.1.jre8.jar" main.Main
